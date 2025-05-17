@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Other\\Code\\Messenger\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|d:\\other\\code\\messenger\\messenger\\contollers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|solutionrelative:messenger\\contollers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|d:\\other\\code\\messenger\\messenger\\contollers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|solutionrelative:messenger\\contollers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|d:\\other\\code\\messenger\\messenger\\contollers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|solutionrelative:messenger\\contollers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|d:\\other\\code\\messenger\\messenger\\contollers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|solutionrelative:messenger\\contollers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|d:\\other\\code\\messenger\\messenger\\contollers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|solutionrelative:messenger\\contollers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|d:\\other\\code\\messenger\\messenger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|solutionrelative:messenger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|d:\\other\\code\\messenger\\messenger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|solutionrelative:messenger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|d:\\other\\code\\messenger\\messenger\\models\\messengerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16CBCFF-EF9D-4238-809F-C55F77C548B5}|Messenger\\Messenger.csproj|solutionrelative:messenger\\models\\messengerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Other\\Code\\Messenger\\Messenger\\appsettings.json",
+              "RelativeDocumentMoniker": "Messenger\\appsettings.json",
+              "ToolTip": "D:\\Other\\Code\\Messenger\\Messenger\\appsettings.json",
+              "RelativeToolTip": "Messenger\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T17:05:30.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Other\\Code\\Messenger\\Messenger\\Contollers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Messenger\\Contollers\\UsersController.cs",
+              "ToolTip": "D:\\Other\\Code\\Messenger\\Messenger\\Contollers\\UsersController.cs",
+              "RelativeToolTip": "Messenger\\Contollers\\UsersController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAxwCUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:39:40.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "D:\\Other\\Code\\Messenger\\Messenger\\Contollers\\PostsController.cs",
+              "RelativeDocumentMoniker": "Messenger\\Contollers\\PostsController.cs",
+              "ToolTip": "D:\\Other\\Code\\Messenger\\Messenger\\Contollers\\PostsController.cs",
+              "RelativeToolTip": "Messenger\\Contollers\\PostsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:39:39.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LikeController.cs",
+              "DocumentMoniker": "D:\\Other\\Code\\Messenger\\Messenger\\Contollers\\LikeController.cs",
+              "RelativeDocumentMoniker": "Messenger\\Contollers\\LikeController.cs",
+              "ToolTip": "D:\\Other\\Code\\Messenger\\Messenger\\Contollers\\LikeController.cs",
+              "RelativeToolTip": "Messenger\\Contollers\\LikeController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:39:39.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "D:\\Other\\Code\\Messenger\\Messenger\\Contollers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "Messenger\\Contollers\\CommentsController.cs",
+              "ToolTip": "D:\\Other\\Code\\Messenger\\Messenger\\Contollers\\CommentsController.cs",
+              "RelativeToolTip": "Messenger\\Contollers\\CommentsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowEIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:39:38.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Other\\Code\\Messenger\\Messenger\\Contollers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Messenger\\Contollers\\AuthController.cs",
+              "ToolTip": "D:\\Other\\Code\\Messenger\\Messenger\\Contollers\\AuthController.cs",
+              "RelativeToolTip": "Messenger\\Contollers\\AuthController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:39:37.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MessengerDbContext.cs",
+              "DocumentMoniker": "D:\\Other\\Code\\Messenger\\Messenger\\Models\\MessengerDbContext.cs",
+              "RelativeDocumentMoniker": "Messenger\\Models\\MessengerDbContext.cs",
+              "ToolTip": "D:\\Other\\Code\\Messenger\\Messenger\\Models\\MessengerDbContext.cs",
+              "RelativeToolTip": "Messenger\\Models\\MessengerDbContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAlwCsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:04:28.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Other\\Code\\Messenger\\Messenger\\Program.cs",
+              "RelativeDocumentMoniker": "Messenger\\Program.cs",
+              "ToolTip": "D:\\Other\\Code\\Messenger\\Messenger\\Program.cs",
+              "RelativeToolTip": "Messenger\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:12:09.303Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
