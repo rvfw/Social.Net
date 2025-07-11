@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://localhost/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || '/api';
 
 export default {
   AUTH: {

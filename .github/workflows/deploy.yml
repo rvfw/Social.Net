@@ -16,18 +16,12 @@ jobs:
 
       - name: логинимся в GHCR.io - docker registry от гитхаба
         run: |
-          echo "$GHCR_PASSWORD" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
-        env:
-          GHCR_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
 
       - name: Build and Push Docker image
         run: |
           cd ${{ matrix.component }}
-
-          docker build -t ghcr.io/rvfw/social_${{ matrix.component }}:${{ github.sha }} .
-
-          docker push ghcr.io/rvfw/social_${{ matrix.component }}:${{ github.sha }}
-
-          docker tag ghcr.io/rvfw/social_${{ matrix.component }}:${{ github.sha }} ghcr.io/rvfw/social_${{ matrix.component }}:latest
-
-          docker push ghcr.io/rvfw/social_${{ matrix.component }}:latest
+          docker build -t ghcr.io/${{ github.repository_owner }}/social_${{ matrix.component }}:${{ github.sha }} .
+          docker push ghcr.io/${{ github.repository_owner }}/social_${{ matrix.component }}:${{ github.sha }}
+          docker tag ghcr.io/${{ github.repository_owner }}/social_${{ matrix.component }}:${{ github.sha }} ghcr.io/${{ github.repository_owner }}/social_${{ matrix.component }}:latest
+          docker push ghcr.io/${{ github.repository_owner }}/social_${{ matrix.component }}:latest
