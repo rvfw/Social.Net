@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        component: ['Back', 'Front']
+        component: ['back', 'front']
     steps:
       - name: Скопировать код с гитхаба на билдящий сервер
         uses: actions/checkout@v4
