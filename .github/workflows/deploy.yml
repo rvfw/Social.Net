@@ -1,0 +1,39 @@
+name: Build and Push Docker Images to GHCR
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        component: ['Back', 'Front']
+    steps:
+      - name: Скопировать код с гитхаба на билдящий сервер
+        uses: actions/checkout@v4
+
+      - name: логинимся в GHCR.io - docker registry от гитхаба
+        run: |
+          echo "$GHCR_PASSWORD" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
+        env:
+          GHCR_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and Push Docker image
+        run: |
+          # в скопированном коде перешли в директорию N где N это поочередно каждый элемент из массива(матрицы выше)
+          cd ${{ matrix.component }}
+
+          # Сборка образа с названием включающим sha 
+          # (sha - хеш от твоего коммита, потому что докеру нужен уникальный тег)
+          docker build -t ghcr.io/rvfw/social_${{ matrix.component }}:${{ github.sha }} .
+          
+          # пушим в регистри наш оббраз полученный выше
+          docker push ghcr.io/rvfw/social_${{ matrix.component }}:${{ github.sha }}
+
+          # в тег latest (последний) перезаписываем только что полученный образ
+          docker tag ghcr.io/rvfw/social_${{ matrix.component }}:${{ github.sha }} ghcr.io/rvfw/social_${{ matrix.component }}:latest
+          
+          # опять же пушим латест тег
+          docker push ghcr.io/rvfw/social_${{ matrix.component }}:latest
