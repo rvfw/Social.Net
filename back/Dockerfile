@@ -14,6 +14,6 @@ RUN rm -rf ~/.nuget/packages/*
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS final
 WORKDIR /app
 COPY --from=build /src/out ./
-EXPOSE 80
+EXPOSE 5000
 
 ENTRYPOINT ["dotnet", "Messenger.dll"]
